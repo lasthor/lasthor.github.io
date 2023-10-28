@@ -1,0 +1,33 @@
+.exp_section
+
+{
+
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(20% 50% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%) , 
+    center center/auto 50% no-repeat;
+    padding-top:10%;
+
+    .container_div_exp
+    {
+    
+        width: 80%;
+        color: white;
+        font-family: Preahvihear;
+
+        .exp_div_container
+        {
+            display: grid;
+            grid-template-columns: auto auto;
+            div
+            {
+                box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.9); 
+                border-radius: 15px;
+                height: 168.06px;
+                margin: 0.5vw 1vw;
+            }
+
+            
+        }
+    }
+}
