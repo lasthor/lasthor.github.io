@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   background: radial-gradient(20% 50% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%), center center/auto 50% no-repeat;
-  padding-top: 10%;
 }
 .exp_section .container_div_exp {
   width: 80%;
@@ -13,9 +12,24 @@
   display: grid;
   grid-template-columns: auto auto;
 }
-.exp_section .container_div_exp .exp_div_container div {
-  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.9);
+.exp_section .container_div_exp .exp_div_container .exp_div_div1 {
   border-radius: 15px;
   height: 168.06px;
   margin: 0.5vw 1vw;
+}
+.exp_section .container_div_exp .exp_div_container .div_1 {
+  background: radial-gradient(ellipse at 125% 125%, #502780, #11071F);
+  box-shadow: -20px 5px 1px rgba(0, 0, 0, 0.9);
+}
+.exp_section .container_div_exp .exp_div_container .div_2 {
+  background: radial-gradient(ellipse at 0% 125%, #502780, #11071F);
+  box-shadow: 20px 5px 1px rgba(0, 0, 0, 0.9);
+}
+.exp_section .container_div_exp .exp_div_container .div_3 {
+  background: radial-gradient(ellipse at 125% 0%, #502780, #11071F);
+  box-shadow: -20px 5px 1px rgba(0, 0, 0, 0.9);
+}
+.exp_section .container_div_exp .exp_div_container .div_4 {
+  background: radial-gradient(ellipse at 0% 0%, #502780, #11071F);
+  box-shadow: 20px 5px 1px rgba(0, 0, 0, 0.9);
 }/*# sourceMappingURL=section2.css.map */

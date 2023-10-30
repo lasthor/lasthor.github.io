@@ -6,7 +6,6 @@
     justify-content: center;
     background: radial-gradient(20% 50% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%) , 
     center center/auto 50% no-repeat;
-    padding-top:10%;
 
     .container_div_exp
     {
@@ -19,15 +18,42 @@
         {
             display: grid;
             grid-template-columns: auto auto;
-            div
+            
+            .exp_div_div1
             {
-                box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.9); 
                 border-radius: 15px;
                 height: 168.06px;
                 margin: 0.5vw 1vw;
+            
             }
 
-            
-        }
+            .div_1
+            {
+                background: radial-gradient(ellipse at 125% 125%,#502780, #11071F);
+                box-shadow: -20px 5px 1px rgba(0, 0, 0, 0.9);
+            }
+            .div_2 
+            {
+                background: radial-gradient(ellipse at 0% 125%,#502780, #11071F);
+                box-shadow: 20px 5px 1px rgba(0, 0, 0, 0.9);
+
+            }
+
+            .div_3
+            {
+                background: radial-gradient(ellipse at 125% 0%,#502780, #11071F);
+                box-shadow: -20px 5px 1px rgba(0, 0, 0, 0.9);
+            }
+
+            .div_4
+            {
+                background: radial-gradient(ellipse at 0% 0%,#502780, #11071F);
+                box-shadow: 20px 5px 1px rgba(0, 0, 0, 0.9);
+            }
     }
+
+}
+  
+  
+  
 }
