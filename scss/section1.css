@@ -20,7 +20,7 @@
     left: 29%;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .pof_sec1 .div_sec1 .Iam_ {
     top: -14%;
     left: 32%;
@@ -46,7 +46,7 @@
 .pof_sec1 .div_sec1 .img1_div {
   width: 17vw;
   height: 22vw;
-  background: radial-gradient(48% 48% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%), url("../imgs/Ellipse 3.png") center center/auto 50% no-repeat;
+  background-image: radial-gradient(at 48% 46%, hsla(30, 78%, 61%, 0.57) 0px, transparent 50%), radial-gradient(at 49% 47%, hsl(240, 100%, 70%) 0px, transparent 50%), radial-gradient(at 49% 47%, hsla(343, 100%, 76%, 0.52) 0px, transparent 50%);
   display: flex;
   justify-content: center;
   align-items: center;

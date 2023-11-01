@@ -1,35 +1,58 @@
 .exp_section {
   display: flex;
   justify-content: center;
-  background: radial-gradient(20% 50% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%), center center/auto 50% no-repeat;
 }
 .exp_section .container_div_exp {
   width: 80%;
   color: white;
   font-family: Preahvihear;
 }
-.exp_section .container_div_exp .exp_div_container {
-  display: grid;
-  grid-template-columns: auto auto;
+.exp_section .container_div_exp .main_container {
+  background: radial-gradient(10% 35% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%), center center/auto 50% no-repeat;
 }
-.exp_section .container_div_exp .exp_div_container .exp_div_div1 {
+.exp_section .container_div_exp .main_container .exp_div_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.exp_section .container_div_exp .main_container .exp_div_container .bg_fordiv, .exp_section .container_div_exp .main_container .exp_div_container .div_4, .exp_section .container_div_exp .main_container .exp_div_container .div_3, .exp_section .container_div_exp .main_container .exp_div_container .div_2, .exp_section .container_div_exp .main_container .exp_div_container .div_1 {
+  background-color: hsl(265, 63%, 7%);
+}
+.exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 {
   border-radius: 15px;
   height: 168.06px;
-  margin: 0.5vw 1vw;
+  margin: 1vw 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.exp_section .container_div_exp .exp_div_container .div_1 {
-  background: radial-gradient(ellipse at 125% 125%, #502780, #11071F);
-  box-shadow: -20px 5px 1px rgba(0, 0, 0, 0.9);
+.exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 p {
+  font-size: 0.7rem;
 }
-.exp_section .container_div_exp .exp_div_container .div_2 {
-  background: radial-gradient(ellipse at 0% 125%, #502780, #11071F);
-  box-shadow: 20px 5px 1px rgba(0, 0, 0, 0.9);
+.exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 div {
+  display: inline-block;
+  margin-left: 3%;
 }
-.exp_section .container_div_exp .exp_div_container .div_3 {
-  background: radial-gradient(ellipse at 125% 0%, #502780, #11071F);
-  box-shadow: -20px 5px 1px rgba(0, 0, 0, 0.9);
+.exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 button {
+  background-color: #2C1250;
+  border: none;
+  height: 1.5rem;
+  border-radius: 1rem;
 }
-.exp_section .container_div_exp .exp_div_container .div_4 {
-  background: radial-gradient(ellipse at 0% 0%, #502780, #11071F);
-  box-shadow: 20px 5px 1px rgba(0, 0, 0, 0.9);
+.exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 button a {
+  text-decoration: none;
+  color: white;
+  font-family: Preahvihear;
+}
+.exp_section .container_div_exp .main_container .exp_div_container .div_1 {
+  background-image: radial-gradient(at 0% 0%, hsla(254, 48%, 25%, 0.69) 0px, transparent 50%), radial-gradient(at 100% 100%, hsl(266, 53%, 32%) 0px, transparent 50%), radial-gradient(at 100% 40%, hsla(266, 53%, 32%, 0.35) 0px, transparent 50%);
+}
+.exp_section .container_div_exp .main_container .exp_div_container .div_2 {
+  background-image: radial-gradient(at 100% 0%, hsla(254, 48%, 25%, 0.69) 0px, transparent 50%), radial-gradient(at 0% 100%, hsl(266, 53%, 32%) 0px, transparent 50%), radial-gradient(at 0% 35%, hsla(266, 53%, 32%, 0.35) 0px, transparent 50%);
+}
+.exp_section .container_div_exp .main_container .exp_div_container .div_3 {
+  background-image: radial-gradient(at 0% 98%, hsla(254, 48%, 25%, 0.69) 0px, transparent 50%), radial-gradient(at 99% 0%, hsl(266, 53%, 32%) 0px, transparent 50%), radial-gradient(at 100% 59%, hsla(266, 53%, 32%, 0.35) 0px, transparent 50%);
+}
+.exp_section .container_div_exp .main_container .exp_div_container .div_4 {
+  background-color: hsl(265, 63%, 7%);
+  background-image: radial-gradient(at 100% 100%, hsla(254, 48%, 25%, 0.69) 0px, transparent 50%), radial-gradient(at 0% 1%, hsl(266, 53%, 32%) 0px, transparent 50%), radial-gradient(at 0% 65%, hsla(266, 53%, 32%, 0.35) 0px, transparent 50%);
 }/*# sourceMappingURL=section2.css.map */
