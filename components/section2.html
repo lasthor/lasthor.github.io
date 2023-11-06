@@ -2,6 +2,17 @@
 
     <div class="container_div_exp">
         <h1>Work Experience</h1>
+        <script>
+            $.ajax(
+                {
+                    url:"your_data.json",
+                    method :"GET",
+                    success : function (data) {
+                        console.log(data) ;
+                    }
+                }
+            );
+        </script>
         <div class="main_container">
             <div class="exp_div_container">
                 <div class="exp_div_div1 div_1">
