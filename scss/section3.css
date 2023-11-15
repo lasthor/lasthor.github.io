@@ -1,0 +1,59 @@
+.skills-section {
+  border: 2px solid white;
+}
+.skills-section .container {
+  border: 2px solid gold;
+}
+.skills-section .container .div-para {
+  color: #FFF;
+  text-align: center;
+  font-family: Preahvihear;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px; /* 77.5% */
+  letter-spacing: 0.8px;
+}
+.skills-section .container .div-para .croos-fun {
+  color: #A362FF;
+  font-size: 2rem;
+}
+.skills-section .container .div-para .little-para {
+  font-size: 1.2rem;
+}
+.skills-section .container .div-skills-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid white;
+}
+.skills-section .container .div-skills-icons .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-section .container .div-skills-icons .img-M {
+  background-color: hsl(256, 72%, 29%);
+  background-image: radial-gradient(at 86% 90%, hsl(266, 85%, 49%) 0px, transparent 50%), radial-gradient(at 3% 21%, hsl(266, 86%, 49%) 0px, transparent 50%);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.border {
+  border: solid white;
+}
+
+.width-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.mar-left {
+  margin-left: 1rem;
+}
+
+.mar-top {
+  margin-top: 0.3rem;
+}/*# sourceMappingURL=section3.css.map */
