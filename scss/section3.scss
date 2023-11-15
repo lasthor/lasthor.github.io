@@ -1,0 +1,72 @@
+.skills-section {
+    border: 2px solid white;
+
+    .container {
+        border: 2px solid gold;
+
+        .div-para {
+            color: #FFF;
+            text-align: center;
+            font-family: Preahvihear;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 31px; /* 77.5% */
+            letter-spacing: 0.8px;
+
+            .croos-fun {
+                color: #A362FF;
+                font-size: 2rem;
+            }
+            .little-para {
+                font-size: 1.2rem;
+            }
+        }
+
+        .div-skills-icons {
+
+            .icons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: solid white;    
+
+
+            .img-M {
+                background-color:hsla(256,72%,29%,1);
+                background-image:
+                radial-gradient(at 86% 90%, hsla(266,85%,49%,1) 0px, transparent 50%),
+                radial-gradient(at 3% 21%, hsla(266,86%,49%,1) 0px, transparent 50%);
+                width: fit-content;
+                padding: 2rem;
+                border-radius: 50%;
+                
+            }
+            
+        }
+
+    }
+
+    
+}
+
+.border {
+    border: solid white;
+}
+
+.width-fit {
+    width: fit-content;
+}
+
+.mar-left {
+    margin-left: 1rem;
+}
+
+.mar-top {
+    margin-top: 0.3rem;
+}
