@@ -1,72 +1,159 @@
+$color_1: #FFF;
+$color_2: #A362FF;
+$font-family_1: Preahvihear;
+$background-color_1: #11071F;
+$background-color_2: #251C31;
+$background-color_3: hsl(256, 72%, 29%);
+$background-color_4: rgba(255, 255, 255, 0);
+
+
+body {
+	background-color: $background-color_1;
+}
 .skills-section {
-    border: 2px solid white;
-
-    .container {
-        border: 2px solid gold;
-
-        .div-para {
-            color: #FFF;
-            text-align: center;
-            font-family: Preahvihear;
-            font-size: 1.5rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 31px; /* 77.5% */
-            letter-spacing: 0.8px;
-
-            .croos-fun {
-                color: #A362FF;
-                font-size: 2rem;
-            }
-            .little-para {
-                font-size: 1.2rem;
-            }
-        }
-
-        .div-skills-icons {
-
-            .icons {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            border: solid white;    
-
-
-            .img-M {
-                background-color:hsla(256,72%,29%,1);
-                background-image:
-                radial-gradient(at 86% 90%, hsla(266,85%,49%,1) 0px, transparent 50%),
-                radial-gradient(at 3% 21%, hsla(266,86%,49%,1) 0px, transparent 50%);
-                width: fit-content;
-                padding: 2rem;
-                border-radius: 50%;
-                
-            }
-            
-        }
-
-    }
-
-    
+	.container {
+		.div-para {
+			color: $color_1;
+			text-align: center;
+			font-family: $font-family_1;
+			font-size: 1.5rem;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 31px;
+			letter-spacing: 0.8px;
+			.croos-fun {
+				color: $color_2;
+				font-size: 2rem;
+			}
+			.little-para {
+				font-size: 1.2rem;
+			}
+		}
+		.div-skills-icons {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			.icons {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	}
 }
-
 .border {
-    border: solid white;
+	display: flex;
 }
-
+.icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: $background-color_2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .width-fit {
-    width: fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
-
-.mar-left {
-    margin-left: 1rem;
-}
-
 .mar-top {
-    margin-top: 0.3rem;
+	margin-top: 0.3rem;
+}
+.lines {
+	display: flex;
+}
+.arrow3 {
+	width: 34.5px;
+	height: 291.5px;
+	position: relative;
+	left: 5px;
+	bottom: 3px;
+}
+.arrow4 {
+	width: 34.5px;
+	height: 291.5px;
+	position: relative;
+	right: 3px;
+	bottom: 6px;
+}
+.arrow2 {
+	width: 90.489px;
+	height: 270px;
+	position: relative;
+	left: 40px;
+	bottom: 3px;
+}
+.arrow5 {
+	width: 90.489px;
+	height: 270px;
+	position: relative;
+	right: 40px;
+	bottom: 3px;
+}
+.arrow1 {
+	width: 122.427px;
+	height: 277.5px;
+	position: relative;
+	left: 120px;
+	bottom: 3px;
+}
+.arrow6 {
+	width: 122.427px;
+	height: 277.5px;
+	position: relative;
+	right: 120px;
+	bottom: 3px;
+}
+.container-cloud {
+	width: 400px;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 542px;
+	background: radial-gradient(50% 50% at 50% 50%, $color_2 0%, rgba(50, 15, 133, 0.00) 100%);
+	position: relative;
+	bottom: 100px;
+}
+.img-M {
+	background-color: $background-color_3;
+	background-image: radial-gradient(at 86% 90%, hsl(266, 85%, 49%) 0px, transparent 50%), radial-gradient(at 3% 21%, hsl(266, 86%, 49%) 0px, transparent 50%);
+	width: 100px;
+	height: 100px;
+	padding: 2rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 20px;
+}
+.circle {
+	display: flex;
+	justify-content: center;
+	border-radius: 100%;
+	border: 1px solid $color_2;
+	border-color: linear-gradient(to top, $color_2, black);
+	background-color: rgba(255, 255, 255, 0);
+}
+.circle3 {
+	width: 880px;
+	height: 260px;
+	flex-shrink: 0;
+}
+.circle4 {
+	width: 764px;
+	height: 260px;
+}
+.circle5 {
+	width: 695px;
+	height: 260px;
+}
+.circle6 {
+	width: 306px;
+	height: 152px;
+}
+.circle7 {
+	width: 290px;
+	height: 162px;
 }
