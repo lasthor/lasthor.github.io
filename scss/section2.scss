@@ -1,9 +1,15 @@
+@import './breackpoint.scss' ;
+
 .exp_section
 
 {
 
     display: flex;
     justify-content: center;
+    
+    @include Mobile {
+        margin-top: 4rem;
+    }
     
 
 
@@ -13,6 +19,13 @@
         width: 80%;
         color: white;
         font-family: Preahvihear;
+
+        @include Mobile {
+            width:  fit-content;
+        }
+        img {
+            width: 20%;
+        }
         
 
 
@@ -22,12 +35,20 @@
             background: radial-gradient(10% 35% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%) , 
             center center/auto 50% no-repeat;
 
+            @include Mobile {
+                background: none;
+            }
+
         
                 .exp_div_container
             {
 
                 display: grid;
                 grid-template-columns:1fr 1fr;
+
+                @include Mobile {
+                    grid-template-columns: 1fr;
+                }
 
                 .bg_fordiv
                 {
@@ -42,6 +63,13 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    height: fit-content;
+                    padding: 1rem 0;
+
+                    @include Mobile {
+
+                        margin: 3vw 2vw;
+                    }
                     
 
                     p
@@ -49,6 +77,11 @@
                         
                         font-size: 0.7rem;
 
+                    }
+                    h1{
+                        @include Mobile {
+                            font-size: 5vw;
+                        }
                     }
 
                     div 
@@ -60,8 +93,8 @@
                     {
                         background-color: #2C1250;
                         border: none;
-                        height: 1.5rem;
                         border-radius: 1rem;
+                        padding: 0.5rem;
                         
                         a 
                         {

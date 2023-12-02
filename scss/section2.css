@@ -2,17 +2,41 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 480px) {
+  .exp_section {
+    margin-top: 4rem;
+  }
+}
 .exp_section .container_div_exp {
   width: 80%;
   color: white;
   font-family: Preahvihear;
 }
+@media (max-width: 480px) {
+  .exp_section .container_div_exp {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.exp_section .container_div_exp img {
+  width: 20%;
+}
 .exp_section .container_div_exp .main_container {
   background: radial-gradient(10% 35% at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%), center center/auto 50% no-repeat;
+}
+@media (max-width: 480px) {
+  .exp_section .container_div_exp .main_container {
+    background: none;
+  }
 }
 .exp_section .container_div_exp .main_container .exp_div_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 480px) {
+  .exp_section .container_div_exp .main_container .exp_div_container {
+    grid-template-columns: 1fr;
+  }
 }
 .exp_section .container_div_exp .main_container .exp_div_container .bg_fordiv, .exp_section .container_div_exp .main_container .exp_div_container .div_4, .exp_section .container_div_exp .main_container .exp_div_container .div_3, .exp_section .container_div_exp .main_container .exp_div_container .div_2, .exp_section .container_div_exp .main_container .exp_div_container .div_1 {
   background-color: hsl(265, 63%, 7%);
@@ -24,9 +48,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem 0;
+}
+@media (max-width: 480px) {
+  .exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 {
+    margin: 3vw 2vw;
+  }
 }
 .exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 p {
   font-size: 0.7rem;
+}
+@media (max-width: 480px) {
+  .exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 h1 {
+    font-size: 5vw;
+  }
 }
 .exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 div {
   display: inline-block;
@@ -35,8 +72,8 @@
 .exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 button {
   background-color: #2C1250;
   border: none;
-  height: 1.5rem;
   border-radius: 1rem;
+  padding: 0.5rem;
 }
 .exp_section .container_div_exp .main_container .exp_div_container .exp_div_div1 button a {
   text-decoration: none;
