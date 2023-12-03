@@ -1,6 +1,8 @@
 @import './breackpoint.scss' ;
 
 
+
+
 .pof_sec1
 {
     padding: 0 15vw;
@@ -8,35 +10,57 @@
     height: fit-content;
     position: relative;
 
+    @include Tablet{
+        margin-top: 4rem;
+        padding:  0;
+    }
+
+    @include Mobile {
+    }
+
 
 
     .div_sec1
     {
         display: flex;
         align-items: center;
+
+        @include Mobile 
+        {
+            flex-direction: column;
+            justify-content: center;
+        }
         .Iam_
         {
-            display: flex;
-            align-items: center;
             position: absolute;
-            @include xxl
+
+            @include Desktop
             {
                 top: -6%;
                 left: 29%;
 
             }
-            @include xl 
-            {
-                top: -14%;
-                left: 32%;
-
+            @include Tablet {
+                left: 40%;
+                top: -1%;      
             }
+            @include Mobile 
+            {
+                left: 55%;
+                top: -1%;      
+            }
+            
             
             img 
             {
                 top: 25%;
                 left: -37%;        
                 position: absolute;
+
+                @include Mobile {
+                    top: 9%;
+                    left: -58%;
+                }
             
             }
             p
@@ -51,6 +75,12 @@
                 span 
                 {
                     color: #7127BA;
+                }
+
+                @include Mobile
+                {
+                    line-height: 30px;
+                    font-size: 16px;
                 }
 
 
@@ -74,7 +104,24 @@
             img 
             {
                 width: 50%;
-            }        
+            }
+
+            @include Tablet {
+                width: 50vw;
+                height: 60vw;
+
+                justify-content: none;
+                align-items: none;
+            }
+            
+            @include Mobile
+            {
+                width: 74vw;
+                height: 91vw;
+                margin-right: 40%;
+            }
+
+            
         }
 
         .Judge
@@ -87,6 +134,15 @@
             letter-spacing: 1px;
             word-wrap: break-word;
 
+            @include Tablet {
+                font-size: 6vw;
+            }
+
+            @include Mobile {
+                font-size:11.5vw;
+                text-align: center;
+            }
+
             #cover
             {
                 color: #7127BA;
@@ -96,6 +152,14 @@
             {
                 font-size: 0.7vw;
                 line-height: 0px;
+
+
+                @include Tablet {
+                    font-size: 1vw;
+                }
+                @include Mobile{
+                    font-size: 2.5vw;
+                }
                 
             }
         }
@@ -113,10 +177,20 @@
         letter-spacing: 1px;
         word-wrap: break-word ;
 
+        @include Tablet {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
         h1 
         {
             font-size: 2.5vw;
             margin: 0;
+
+            @include Tablet 
+            {
+                font-size:5.5vw;
+            }
 
         }
         p 
@@ -125,6 +199,11 @@
             #at_c
             {
                 color: #1877F2;
+            }
+
+            @include Tablet {
+                font-size: 2vw;
+
             }
         }
     }
