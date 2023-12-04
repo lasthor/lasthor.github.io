@@ -1,3 +1,6 @@
+@import './breackpoint.scss' ;
+
+
 $color_1: #FFF;
 $color_2: #A362FF;
 $font-family_1: Preahvihear;
@@ -11,6 +14,10 @@ body {
 	background-color: $background-color_1;
 }
 .skills-section {
+	@include Tablet {
+        margin-top: 4rem;
+        overflow: hidden;
+    }
 	.container {
 		.div-para {
 			color: $color_1;
@@ -140,10 +147,18 @@ body {
 	width: 880px;
 	height: 260px;
 	flex-shrink: 0;
+
+	@include Tablet {
+		width: 98vw;
+	}
 }
 .circle4 {
 	width: 764px;
 	height: 260px;
+
+	@include Tablet {
+		width: 87%;
+	}
 }
 .circle5 {
 	width: 695px;

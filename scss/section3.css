@@ -2,6 +2,12 @@ body {
   background-color: #11071F;
 }
 
+@media (max-width: 1024px) {
+  .skills-section {
+    margin-top: 4rem;
+    overflow: hidden;
+  }
+}
 .skills-section .container .div-para {
   color: #FFF;
   text-align: center;
@@ -144,10 +150,20 @@ body {
   height: 260px;
   flex-shrink: 0;
 }
+@media (max-width: 1024px) {
+  .circle3 {
+    width: 98vw;
+  }
+}
 
 .circle4 {
   width: 764px;
   height: 260px;
+}
+@media (max-width: 1024px) {
+  .circle4 {
+    width: 87%;
+  }
 }
 
 .circle5 {

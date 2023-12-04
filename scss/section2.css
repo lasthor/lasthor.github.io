@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
   .exp_section {
     margin-top: 4rem;
   }
@@ -12,7 +12,7 @@
   color: white;
   font-family: Preahvihear;
 }
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
   .exp_section .container_div_exp {
     width: -moz-fit-content;
     width: fit-content;

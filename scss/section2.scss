@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     
-    @include Mobile {
+    @include Tablet {
         margin-top: 4rem;
     }
     
@@ -20,7 +20,7 @@
         color: white;
         font-family: Preahvihear;
 
-        @include Mobile {
+        @include Tablet {
             width:  fit-content;
         }
         img {
