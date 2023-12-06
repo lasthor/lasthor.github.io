@@ -28,6 +28,7 @@
   .pof_sec1 .div_sec1 .Iam_ {
     top: -6%;
     left: 29%;
+    width: 16.5%;
   }
 }
 @media (max-width: 1024px) {
@@ -38,19 +39,20 @@
 }
 @media (max-width: 480px) {
   .pof_sec1 .div_sec1 .Iam_ {
-    left: 55%;
-    top: -1%;
+    left: 35%;
+    top: -6%;
   }
 }
 .pof_sec1 .div_sec1 .Iam_ img {
   top: 25%;
-  left: -37%;
+  left: -6.5rem;
   position: absolute;
 }
 @media (max-width: 480px) {
   .pof_sec1 .div_sec1 .Iam_ img {
-    top: 9%;
-    left: -58%;
+    top: 30%;
+    left: -4.8rem;
+    transform: rotate(-46deg);
   }
 }
 .pof_sec1 .div_sec1 .Iam_ p {
@@ -62,13 +64,10 @@
   word-wrap: break-word;
   display: inline-block;
 }
-.pof_sec1 .div_sec1 .Iam_ p span {
-  color: #7127BA;
-}
 @media (max-width: 480px) {
   .pof_sec1 .div_sec1 .Iam_ p {
     line-height: 30px;
-    font-size: 16px;
+    font-size: 4vw;
   }
 }
 .pof_sec1 .div_sec1 .img1_div {
@@ -119,7 +118,7 @@
 }
 .pof_sec1 .div_sec1 .Judge #cover {
   color: #7127BA;
-  background: url("../imgs/Ellipse 5.png") center center/98% 66% no-repeat;
+  background: url("/imgs/Ellipse 5.png") center center/98% 66% no-repeat;
 }
 .pof_sec1 .div_sec1 .Judge .pragph {
   font-size: 0.7vw;
@@ -167,4 +166,8 @@
   .pof_sec1 .Iam_a_soft p {
     font-size: 2vw;
   }
+}
+
+.color-purbl {
+  color: #7127BA;
 }/*# sourceMappingURL=section1.css.map */
