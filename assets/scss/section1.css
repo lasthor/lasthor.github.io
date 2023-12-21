@@ -28,7 +28,6 @@
   .pof_sec1 .div_sec1 .Iam_ {
     top: -6%;
     left: 29%;
-    width: 16.5%;
   }
 }
 @media (max-width: 1024px) {
@@ -164,7 +163,7 @@
 }
 @media (max-width: 1024px) {
   .pof_sec1 .Iam_a_soft p {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 }
 

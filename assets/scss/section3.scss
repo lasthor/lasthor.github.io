@@ -10,15 +10,13 @@ $background-color_3: hsl(256, 72%, 29%);
 $background-color_4: rgba(255, 255, 255, 0);
 
 
-body {
-	background-color: $background-color_1;
-}
 .skills-section {
+	margin-top: 4rem;
 	@include Tablet {
-        margin-top: 4rem;
         overflow: hidden;
     }
 	.container {
+		overflow: hidden;
 		.div-para {
 			color: $color_1;
 			text-align: center;
@@ -28,6 +26,7 @@ body {
 			font-weight: 400;
 			line-height: 31px;
 			letter-spacing: 0.8px;
+			margin-bottom: 55rem ;
 			.croos-fun {
 				color: $color_2;
 				font-size: 2rem;
@@ -37,6 +36,7 @@ body {
 			}
 		}
 		.div-skills-icons {
+			opacity: 0;
 			display: flex;
 			align-items: center;
 			flex-direction: column;
